@@ -6,7 +6,7 @@ body{
     display: grid;
     min-height:100vh ;
     place-items: center;
-    background-color: blue;
+    background-color: black;
 }
 .ddt{
     background-color: rgba(0, 0, 0, 0.925);
