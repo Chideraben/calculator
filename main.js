@@ -12,7 +12,7 @@
     })
     equa.addEventListener('click', function(e){
         if (screen.value === ''){
-            screen.value = 0;
+            screen.value = "0";
         }else{
             let answer =eval(screen.value);
             screen.value = answer;
