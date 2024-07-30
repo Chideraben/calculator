@@ -6,14 +6,14 @@ body{
     display: grid;
     min-height:100vh ;
     place-items: center;
-    
+    background-color: white;
 }
 .ddt{
     background-color: rgba(0, 0, 0, 0.925);
     width:270px ;
     height: 440px;
     border-radius: 10px;
-
+    overflow: hidden;
 }
 #a-link , a{
     text-decoration: none;
@@ -33,7 +33,7 @@ body{
 }
 
 .screen{
-    width: 100%;
+    width: 270px;
     height: 120px;
     text-align: right;
     font-size: 30px;
@@ -46,7 +46,7 @@ body{
     
 }
 #btn{
-    width: 90px;
+    width: 60px;
     height: 50px;
     border: none;
     border-radius:14px;
@@ -57,9 +57,9 @@ body{
    box-shadow: 2px 3px rgba(128, 128, 128, 0.76);
 }
 #cover{
+    width: 265px;
     margin-top: 10px;
-    width: 450px;
-    padding-left: 40px;
+    padding-left: 5px;
 }
 .core{
     background-color: chocolate;
@@ -119,7 +119,7 @@ body{
     position: absolute;
     content: "";
     height: 1.4em;
-    max-width: 1.4em;
+    width: 1.4em;
     left: 0.3em;
     bottom: 0.35em;
     transition: 2s;
@@ -151,11 +151,22 @@ p{
 }
 }
 
+@media screen and (min-width:470px){
     #calc{
-        max-width:470px ;
+        width:470px ;
         height: 540px;
        
     }
-   
-    
-   
+    #cover{
+        width: 450px;
+        padding-left: 40px;
+    }
+    .screen{
+        width: 450px;
+    }
+    #btn{
+        width: 90px;
+        height: 70px;
+       
+    }
+}
