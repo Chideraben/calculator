@@ -10,14 +10,14 @@ body{
 }
 .ddt{
     background-color: rgba(0, 0, 0, 0.925);
-    max-width:270px ;
+    width:270px ;
     height: 440px;
     border-radius: 10px;
     overflow: hidden;
 }
 #a-link , a{
     text-decoration: none;
-    max-width: 60px;
+    width: 60px;
     height: 30px;
     color: black;
     font-weight: 500;
@@ -58,7 +58,7 @@ body{
 }
 #cover{
     margin-top: 10px;
-    max-width: 450px;
+    width: 450px;
     padding-left: 40px;
 }
 .core{
